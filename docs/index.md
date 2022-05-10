@@ -1,4 +1,5 @@
-# **My land To Ting**
+title: Home
+# **My land to Ting**
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

@@ -1,3 +1,4 @@
+title: What is Schema?
 # **what is Schema?**
  在学习**Material for Mk Docs**的时候，官方手册中提示我们可以设置
  **schema.json**进行**configuration validation and auto-complete**
