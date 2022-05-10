@@ -8,19 +8,19 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.13">
     
     
       
-        <title>Peixuan Wu's Land</title>
+        <title>What is Schema? - Peixuan Wu's Land</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.e411adfe.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.e411adfe.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.cc9b2e1e.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
         
       
     
@@ -35,7 +35,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -58,6 +58,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#what-is-schema" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -68,7 +73,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Peixuan Wu&#39;s Land" class="md-header__button md-logo" aria-label="Peixuan Wu's Land" data-md-component="logo">
+    <a href=".." title="Peixuan Wu&#39;s Land" class="md-header__button md-logo" aria-label="Peixuan Wu's Land" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -87,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              What is Schema?
             
           </span>
         </div>
@@ -154,7 +159,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Peixuan Wu&#39;s Land" class="md-nav__button md-logo" aria-label="Peixuan Wu's Land" data-md-component="logo">
+    <a href=".." title="Peixuan Wu&#39;s Land" class="md-nav__button md-logo" aria-label="Peixuan Wu's Land" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -173,7 +178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Home
       </a>
     </li>
@@ -188,7 +193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/markdownlearn%20copy/" class="md-nav__link">
+      <a href="../markdownlearn%20copy/" class="md-nav__link">
         markdown
       </a>
     </li>
@@ -201,11 +206,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/what%20is%20Json%20Schema/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         What is Schema?
       </a>
+      
     </li>
   
 
@@ -227,6 +242,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -237,8 +254,88 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
 
+
+<h1 id="what-is-schema"><strong>what is Schema?</strong></h1>
+<p>在学习<strong>Material for Mk Docs</strong>的时候，官方手册中提示我们可以设置
+ <strong>schema.json</strong>进行<strong>configuration validation and auto-complete</strong></p>
+<p>在VScode的settings中可以进行这样设定</p>
+<p><code>json
+ { 
+    "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
+    }
+ }</code></p>
+<p>要知道什么是<strong>schema</strong>我们首先要知道什么是<strong>json</strong>，如上段代码所示就是一个标准的json结构；
+简单的来说在<strong>中括号包裹起来</strong>的结构代表了Json中的<strong>对象</strong>的概念，其实可以看成是Python中的字典结构。</p>
+<p>以下是json和pyhton的类比概念</p>
+<table>
+<thead>
+<tr>
+<th align="left">json</th>
+<th align="right">python</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">string</td>
+<td align="right">string</td>
+</tr>
+<tr>
+<td align="left">number</td>
+<td align="right">int/float</td>
+</tr>
+<tr>
+<td align="left">object</td>
+<td align="right">dict</td>
+</tr>
+<tr>
+<td align="left">array</td>
+<td align="right">list</td>
+</tr>
+<tr>
+<td align="left">boolean</td>
+<td align="right">bool</td>
+</tr>
+<tr>
+<td align="left">null</td>
+<td align="right">None</td>
+</tr>
+</tbody>
+</table>
+<p>比如我们想要描述一个人</p>
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;George Washington&quot;,
+    &quot;birthday&quot;: &quot;February 22, 1732&quot;,
+    &quot;address&quot;: &quot;Mount Vernon, Virginia, United States&quot;
+}
+</code></pre>
+<p>json简单明了的表达对象的属性，但是当计算程序执行并向你请求一个对象的记录时，你交给计算机的json文件需要有一个正确的表达结构，比如我们不能将 <code>name 赋值为 123</code> 也不能将<code>birthday 赋值为一串字符串</code>计算机在接受复杂格式文件时会去验证你所赋值的结构的正确性。</p>
+<p>这时候Schema Json可以来帮助计算机进行验证</p>
+<p>例如以下的schema：</p>
+<pre><code class="language-json">{
+    &quot;type&quot;: &quot;object&quot;,
+    &quot;properties&quot;: {
+    &quot;first_name&quot;: { &quot;type&quot;: &quot;string&quot; },
+    &quot;last_name&quot;: { &quot;type&quot;: &quot;string&quot; },
+    &quot;birthday&quot;: { &quot;type&quot;: &quot;string&quot;, &quot;format&quot;: &quot;date&quot; }
+    }
+}
+</code></pre>
+<p>可以看出Schema json本质也是json格式编写的，没错，它只是一种声明性的格式来告诉计算机
+<strong>“其他文件的结构是怎么组织的的”</strong> 一旦我们把非"string"类型的值赋给"name"时，计算机对于
+你所给出的json文件就会验证失败。</p>
+<p><strong>最后</strong>
+Material for Mk Docs作者给出了这一设定相当与给<strong>mkdocs.yml</strong>这一文件设置一种schema（中文译作：图解，结构解）,这样当我们在设置yml文件中的feature时，计算机会判断我们的输入是否正确，比如
+出现<code>name 赋值为 123</code>的情况会报错等（这一步即为Schema的validation功能）。当然最方便的功能时通过设置Schema实现auto-complete功能，即当写下<strong>birthday：</strong> 时程序会自动弹出年月日供我们选择，
+更加实例的来讲当写下<strong>color:</strong>时程序会自动弹出红黄绿供我们选择</p>
+<p>这一切都归功于作者设置的<strong>yaml.Schema for mkdocs.yml</strong></p>
+<p>更加详细的解释参考：
+<a href="https://json-schema.org/understanding-json-schema/about.html">what is a schema?</a></p>
+<p><strong>本文如有错误请指出，谢谢（^_^）！</strong></p>
+
+              
             </article>
           </div>
         </div>
@@ -246,6 +343,26 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../markdownlearn%20copy/" class="md-footer__link md-footer__link--prev" aria-label="Previous: markdown" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              markdown
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -267,10 +384,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.ed9748b7.min.js"></script>
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
       
     
   </body>
