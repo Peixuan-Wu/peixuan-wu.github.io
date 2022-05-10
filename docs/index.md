@@ -1,9 +1,9 @@
-# Welcome to 
+# My land To Ting
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 
-
+个人比较喜欢的一句话(其实是学校校训lol):
 **aspera ad astra (Through adversity to the stars)**
 
 
