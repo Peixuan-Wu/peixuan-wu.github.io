@@ -16,6 +16,7 @@
 
 以下是json和pyhton的类比概念
 
+
 json | python
 :--- | ---:
 string | string
