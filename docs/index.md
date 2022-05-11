@@ -1,11 +1,10 @@
 title: Home
 # **My land to Ting**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 
 
-**aspera ad astra (Through adversity to the stars)**
+> **aspera ad astra (through adversity to the stars)**
 
 
 

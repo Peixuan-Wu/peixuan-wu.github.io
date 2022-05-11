@@ -4,7 +4,7 @@ title: tips for material
 使用pip 可以将所有需要的插件 以及mkdocs依赖组件下载安装好
 
 ## [点击 creating your site](https://squidfunk.github.io/mkdocs-material/creating-your-site/)  
-理清文件结构及作用，对于 `schema.json` 解释请参考[what is schema?](what%20is%20Json%20Schema.md)  
+理清文件结构及作用，对于 `schema.json` 解释请参考[what is schema?](what-is-Json-Schema.md)  
 
 ## [点击 publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)  
 ### 什么是Github Actions？

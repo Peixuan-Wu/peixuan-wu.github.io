@@ -56,22 +56,51 @@ nav:
     - Blog/index.md
     - Sun:
       - Blog/Diary2022/220511.md
+  - Develop:
+    - Develop/index.md
+    - computer graphic:
+      - 101-overview: Develop/CG/101overview.md
+      - 101-Linear Algebra: Develop/CG/101LinearAlgebra.md
+
   - About:
     - About/index.md
 
-
-
-    
-    
-  
+# [Extensions]
+plugins:
+  - search # 现在还不支持中文搜索 支持之后可以设置语言
+  - tags
 markdown_extensions:
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - attr_list # 给图片后面添加{width="300"}设置大小
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight # 代码块高亮
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
   - footnotes
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+
+extra_javascript:
+  - mkdocs/javascripts/mathjax.js # latex支持
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex支持
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # latex支持
+extra_css:
+  - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
+
+    
+    
+  
+
