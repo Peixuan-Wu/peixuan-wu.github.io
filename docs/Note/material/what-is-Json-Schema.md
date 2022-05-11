@@ -5,13 +5,13 @@ title: What is Schema?
  
  在VScode的settings中可以进行这样设定
 
- ```json
- { 
-    "yaml.schemas": {
-    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml",
-    }
- }
- ```
+```
+{
+"yaml.schemas":{
+"https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"}
+}
+```
+
 
 要知道什么是**schema**我们首先要知道什么是**json**，如上段代码所示就是一个标准的json结构；
 简单的来说在**中括号包裹起来**的结构代表了Json中的**对象**的概念，其实可以看成是Python中的字典结构。
