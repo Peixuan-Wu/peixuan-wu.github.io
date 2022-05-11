@@ -52,10 +52,14 @@ nav:
     - tips for material for mkdocs:
       - Getting started: Note/material/tips-for-material-for-mkdocs.md
       - what is Schema?: Note/material/what-is-Json-Schema.md
-  - Blog:
+  - To:
     - Blog/index.md
     - Sun:
       - Blog/Diary2022/220511.md
+  - About:
+    - About/index.md
+
+
 
     
     
