@@ -90,8 +90,6 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-
-
 extra_javascript:
   - mkdocs/javascripts/mathjax.js # latex支持
   - https://polyfill.io/v3/polyfill.min.js?features=es6 # latex支持

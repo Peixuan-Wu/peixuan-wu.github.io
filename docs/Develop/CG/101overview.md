@@ -35,9 +35,16 @@
 10.Typography
 > The Quick Brown Fox Jumps Over The Lazy Dog
 
-> We learn graphics not praphics API.
+> We learn graphics, not praphics API.
 
 ### What's the differences between CG and CV?  
+CG: Model ----> Image (Rendering)
+
+CV: Image ----> Model 
+
+> No clear boundaries
+
+
 
 
 ## focus in this course
@@ -48,5 +55,3 @@
 ### Ray Tracing
 
 ### Animation / Sumulation
-
-### Linear Algerbra
