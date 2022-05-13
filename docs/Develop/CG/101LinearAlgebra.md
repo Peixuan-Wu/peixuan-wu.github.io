@@ -62,7 +62,7 @@ $\vec{b_perpendicular}$ = k $\hat{a}$ = ||$\vec{b_perpendicular}$|| = ||$\vec{b}
 #### Cross product: Properties
 **a** $\times$ **b** = - **b** $\times$ **a**  
 
-|**a** $\times$ **b**| = |**a**||**b**| $\sin\theta$  根据右手定则确定方向
+|**a** $\times$ **b**| = |**a**||**b**| $\sin\theta$  根据右手定则确定方向  
 Self-Cross product = 0 向量
 
 1. Cross product is orthogonal to two initial vectors  
