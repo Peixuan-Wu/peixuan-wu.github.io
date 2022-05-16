@@ -52,6 +52,8 @@ nav:
     - tips for material for mkdocs:
       - Getting started: Note/material/tips-for-material-for-mkdocs.md
       - what is Schema?: Note/material/what-is-Json-Schema.md
+    - Algorithm and data structure:
+      - Binary Tree: 
   - To:
     - Blog/index.md
     - Sun:
@@ -61,6 +63,7 @@ nav:
     - computer graphic:
       - 101-overview: Develop/CG/101overview.md
       - 101-Linear Algebra: Develop/CG/101LinearAlgebra.md
+    
 
   - About:
     - About/index.md
