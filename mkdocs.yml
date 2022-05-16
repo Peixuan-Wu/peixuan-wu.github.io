@@ -53,7 +53,7 @@ nav:
       - Getting started: Note/material/tips-for-material-for-mkdocs.md
       - what is Schema?: Note/material/what-is-Json-Schema.md
     - Algorithm and data structure:
-      - Binary Tree: 
+      - Binary Tree: Note/Algorithm_datastructure/binaryTree.md
   - To:
     - Blog/index.md
     - Sun:
