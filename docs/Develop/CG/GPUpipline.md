@@ -1,5 +1,5 @@
 # GPU 是如何工作的 
-> [参考自B站_从上帝时间看GPU](https://www.bilibili.com/video/BV1P44y1V7bu/?spm_id_from=333.788.recommend_more_video.4)
+> [参考自B站_从上帝视角看GPU](https://www.bilibili.com/video/BV1P44y1V7bu/?spm_id_from=333.788.recommend_more_video.4)
 
 ## 图像流水线的基础
 显示器的基本单元是像素 包含红绿蓝三个元色 也就是对应RGB的三个分量。
@@ -37,9 +37,9 @@
 同一个几何可以摆放不同位置， 不同角度，这时index buffer 不变 而vertex buffer 需要变化，三个变换
 *三个矩阵4*4，
 >
-1.world matrix
-2.view matrix
-3.projection matrix 视野的宽窄
+1.world matrix  
+2.view matrix  
+3.projection matrix 视野的宽窄  
 
 这一部可以通过一个硬件T&L来完成，早期是固定流水线单元，但后来进化到可编程的方式，
 每一个顶点通过一个shader  ，也就是 **vertex shader**
