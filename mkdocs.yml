@@ -65,6 +65,7 @@ nav:
     - computer graphic:
       - 101-overview: Develop/CG/101overview.md
       - 101-Linear Algebra: Develop/CG/101LinearAlgebra.md
+      - GPU是如何工作的?: 
     
 
   - About:
