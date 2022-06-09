@@ -22,7 +22,7 @@
 6.Virtual Reality
 > Oculus VR
 
-7.Digital IIIustration
+7.Digital Ilustration
 > photo shop
 
 8.Simulation
