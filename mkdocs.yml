@@ -42,6 +42,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Peixuan-Wu
       name: GitHub | Peixuan-Wu
+
 # [Navigtion]
 nav:
   - Home:
@@ -71,9 +72,10 @@ nav:
   - Game:
     - Game/index.md
     - 杂谈:
-      - Game/ZaTan/gamePath.md
+      - 我的游戏历程: Game/ZaTan/gamePath.md
     - 天地劫:
     - 梦战:
+    - 原神:
   - About:
     - About/index.md
 
