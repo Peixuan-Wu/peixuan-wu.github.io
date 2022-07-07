@@ -68,8 +68,12 @@ nav:
       - 101-overview: Develop/CG/101overview.md
       - 101-Linear Algebra: Develop/CG/101LinearAlgebra.md
       - GPU是如何工作的?: Develop/CG/GPUpipline.md
-    
-
+  - Game:
+    - Game/index.md
+    - 杂谈:
+      - Game/杂谈/历程.md
+    - 天地劫:
+    - 梦战:
   - About:
     - About/index.md
 
