@@ -73,6 +73,12 @@ nav:
     - Game/index.md
     - 杂谈:
       - 我的游戏历程: Game/ZaTan/gamePath.md
+    - 天地劫:
+      - Game/TDJ/index.md
+    - 梦战:
+      - Game/MZ/index.md
+    - 原神:
+      - Game/YuanShen/index.md
    
   - About:
     - About/index.md
